@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER_LEFT" prefHeight="46.0" prefWidth="287.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.cliente.marketplaceapp.controller.PersonaController">
+   <children>
+      <ImageView fx:id="txtImagen" fitHeight="42.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@values/Imagenes/101010.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="txtNombre" alignment="TOP_LEFT" prefHeight="23.0" prefWidth="160.0" text="Jesus Andres" textFill="#4b4343">
+         <font>
+            <Font name="Corbel" size="17.0" />
+         </font>
+         <HBox.margin>
+            <Insets left="10.0" />
+         </HBox.margin>
+      </Label>
+      <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #54D39D;" textFill="WHITE">
+         <font>
+            <Font name="Corbel" size="20.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@values/Imagenes/6325028.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <stylesheets>
+            <URL value="@values/styles.css" />
+            <URL value="@values/styles.css" />
+         </stylesheets>
+      </Button>
+      <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: E37A7A;" textFill="WHITE">
+         <font>
+            <Font name="Corbel" size="20.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@values/Imagenes/107253.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <stylesheets>
+            <URL value="@values/styles.css" />
+            <URL value="@values/styles.css" />
+         </stylesheets>
+      </Button>
+   </children>
+</HBox>
