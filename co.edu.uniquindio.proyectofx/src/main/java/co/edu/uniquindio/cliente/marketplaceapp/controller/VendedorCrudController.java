@@ -2,17 +2,21 @@ package co.edu.uniquindio.cliente.marketplaceapp.controller;
 
 
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 import co.edu.uniquindio.cliente.marketplaceapp.factory.ModelFactory;
+import co.edu.uniquindio.cliente.marketplaceapp.model.Fruit;
 import co.edu.uniquindio.cliente.marketplaceapp.model.Vendedor;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
 
-    public class VendedorCrudController {
+public class VendedorCrudController{
 
         @FXML
         private ResourceBundle resources;
@@ -81,7 +85,6 @@ import javafx.scene.control.TextField;
         void onEliminarVendedor(ActionEvent event) {
 
         }
-
 
 
     }
