@@ -8,15 +8,15 @@ public class Usuario {
     public String cedula;
     public String direccion;
     public String usuario;
-    public String contraseña;
+    public String contrasena;
 
-    public Usuario(String nombre, String apellido, String cedula, String direccion, String usuario, String contraseña) {
+    public Usuario(String nombre, String apellido, String cedula, String direccion, String usuario, String contrasena) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.cedula = cedula;
         this.direccion = direccion;
         this.usuario = usuario;
-        this.contraseña = contraseña;
+        this.contrasena = contrasena;
     }
 
     public Usuario(){
@@ -43,8 +43,8 @@ public class Usuario {
         return usuario;
     }
 
-    public String getContraseña() {
-        return contraseña;
+    public String getContrasena() {
+        return contrasena;
     }
 
     public static UsuarioBuilder builder(){

@@ -188,8 +188,7 @@ public class VendedorController implements Initializable {
         txtPrecioProductoLabel.setText(HelloApplication.CURRENCY + fruit.getPrecio());
         imagen = new Image(getClass().getResourceAsStream(fruit.getImagen()));
         txtImagenProducto.setImage(imagen);
-        txtProductoElegito.setStyle("-fx-background-color: #" + fruit.getColor() + ";\n" +
-                "    -fx-background-radius: 30;");
+        txtProductoElegito.setStyle("-fx-background-color: #" + fruit.getColor() + ";\n" + "    -fx-background-radius: 30;");
     }
     private void cargaFruits() {
         fruits.addAll(getData());

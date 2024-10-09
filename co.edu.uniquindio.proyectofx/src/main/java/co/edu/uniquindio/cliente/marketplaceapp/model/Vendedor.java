@@ -34,7 +34,7 @@ public class Vendedor extends Usuario{
                 ", cedula='" + cedula + '\'' +
                 ", direccion='" + direccion + '\'' +
                 ", usuario='" + usuario + '\'' +
-                ", contraseña='" + contraseña + '\'' +
+                ", contraseña='" + contrasena + '\'' +
                 '}';
     }
 }

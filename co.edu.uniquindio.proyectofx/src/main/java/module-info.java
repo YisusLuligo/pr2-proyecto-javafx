@@ -9,4 +9,7 @@ module co.edu.uniquindio.cliente.marketplaceapp {
     opens co.edu.uniquindio.cliente.marketplaceapp.controller;
     exports co.edu.uniquindio.cliente.marketplaceapp.controller;
 
+    opens co.edu.uniquindio.cliente.marketplaceapp.viewController;
+    exports co.edu.uniquindio.cliente.marketplaceapp.viewController;
+
 }
