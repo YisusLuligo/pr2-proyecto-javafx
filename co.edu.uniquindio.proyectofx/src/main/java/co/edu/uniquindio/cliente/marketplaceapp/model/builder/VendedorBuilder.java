@@ -25,7 +25,7 @@ public class VendedorBuilder extends UsuarioBuilder<VendedorBuilder>{
     }
 
 
-    public Vendedor buil(){
+    public Vendedor build(){
         return new Vendedor(nombre,apellido,cedula,direccion,usuario,contrasena);
     }
 }
